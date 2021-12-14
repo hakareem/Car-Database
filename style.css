@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.page {
+  background: linear-gradient(
+    -45deg,
+    rgb(255, 3, 16),
+    rgb(224, 248, 2),
+    rgb(195, 145, 145),
+    rgb(255, 136, 0)
+  );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+.carCard {
+  width: 210px;
+  min-height: 250px;
+  background-color: rgba(5, 5, 5, 0.972);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  /* border: 1px solid rgb(251, 255, 6); */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.774);
+}
+
+.colorBox {
+  /* width: 8vw; */
+  /* height: auto; */
+  margin-bottom: 5px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.savebtn {
+  margin-left: 30px;
+  /* background: linear-gradient(black, rgb(2, 139, 251)); */
+  color: rgb(0, 0, 0);
+}
+
+.savebtn:hover {
+  background-color: rgb(30, 255, 0);
+}
