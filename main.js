@@ -164,24 +164,25 @@ function carGenerator(theCarMake, carNumber) {
     ];
     // random picture array for newly generated cars
     let imageDisplay = [];
-    imageDisplay.push("./images/matt.jpg");
-    imageDisplay.push("./images/ma858.jpg");
-    imageDisplay.push("./images/Ferraris.jpg");
-    imageDisplay.push("./images/EuCars.png");
-    imageDisplay.push("./images/b14.jpg");
-    imageDisplay.push("./images/97-audi.jpg");
-    imageDisplay.push("./images/20-4.jpg");
-    imageDisplay.push("./images/m707.jpg");
-    imageDisplay.push("./images/la00-0e.jpg");
-    imageDisplay.push("./images/new1384.jpg");
-    imageDisplay.push("./images/new45da.jfif");
-    imageDisplay.push("./images/new4x683.jpg");
-    imageDisplay.push("./images/newb5u61.jpg");
-    imageDisplay.push("./images/GTA0-1024x576.jpg");
-    imageDisplay.push("./images/GTAars.jpg");
-    imageDisplay.push("./images/GTAault.jpg");
-    imageDisplay.push("./images/GTAhh1e.jpg");
-    imageDisplay.push("./images/GTAhmarine-cost.JPG");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/matt.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/ma858.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/Ferraris.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/EuCars.png");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/b14.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/97-audi.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/20-4.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/m707.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/la00-0e.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/new1384.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/new45da.jfif");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/new4x683.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/newb5u61.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTA0-1024x576.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAars.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAault.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhh1e.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhmarine-cost.JPG");
+    // https://hakareem.github.io/Car-Database/images/
     // two functions to generate random figures for the car description
     function generateStrings(avaliableList) {
         let j = Math.floor(Math.random() * avaliableList.length);
