@@ -164,24 +164,24 @@ function carGenerator(theCarMake, carNumber) {
     ];
     // random picture array for newly generated cars
     let imageDisplay = [];
-    imageDisplay.push("/images/matt.jpg");
-    imageDisplay.push("/images/ma858.jpg");
-    imageDisplay.push("/images/Ferraris.jpg");
-    imageDisplay.push("/images/EuCars.png");
-    imageDisplay.push("/images/b14.jpg");
-    imageDisplay.push("/images/97-audi.jpg");
-    imageDisplay.push("/images/20-4.jpg");
-    imageDisplay.push("/images/m707.jpg");
-    imageDisplay.push("/images/la00-0e.jpg");
-    imageDisplay.push("/images/new1384.jpg");
-    imageDisplay.push("/images/new45da.jfif");
-    imageDisplay.push("/images/new4x683.jpg");
-    imageDisplay.push("/images/newb5u61.jpg");
-    imageDisplay.push("/images/GTA0-1024x576.jpg");
-    imageDisplay.push("/images/GTAars.jpg");
-    imageDisplay.push("/images/GTAault.jpg");
-    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhh1e.jpg");
-    imageDisplay.push("/images/GTAhmarine-cost.JPG");
+    imageDisplay.push("./images/matt.jpg");
+    imageDisplay.push("./images/ma858.jpg");
+    imageDisplay.push("./images/Ferraris.jpg");
+    imageDisplay.push("./images/EuCars.png");
+    imageDisplay.push("./images/b14.jpg");
+    imageDisplay.push("./images/97-audi.jpg");
+    imageDisplay.push("./images/20-4.jpg");
+    imageDisplay.push("./images/m707.jpg");
+    imageDisplay.push("./images/la00-0e.jpg");
+    imageDisplay.push("./images/new1384.jpg");
+    imageDisplay.push("./images/new45da.jfif");
+    imageDisplay.push("./images/new4x683.jpg");
+    imageDisplay.push("./images/newb5u61.jpg");
+    imageDisplay.push("./images/GTA0-1024x576.jpg");
+    imageDisplay.push("./images/GTAars.jpg");
+    imageDisplay.push("./images/GTAault.jpg");
+    imageDisplay.push("./images/GTAhh1e.jpg");
+    imageDisplay.push("./images/GTAhmarine-cost.JPG");
     // two functions to generate random figures for the car description
     function generateStrings(avaliableList) {
         let j = Math.floor(Math.random() * avaliableList.length);
