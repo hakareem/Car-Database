@@ -224,7 +224,7 @@ function carGenerator(
   imageDisplay.push("/images/GTAars.jpg");
   imageDisplay.push("/images/GTAault.jpg");
   imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhh1e.jpg");
-  imageDisplay.push("C:/Users/delz/Desktop/proj/Car Database/images/GTAhmarine-cost.JPG");
+  imageDisplay.push("/images/GTAhmarine-cost.JPG");
 
   // two functions to generate random figures for the car description
   function generateStrings(avaliableList: string | any[]) {

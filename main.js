@@ -180,8 +180,8 @@ function carGenerator(theCarMake, carNumber) {
     imageDisplay.push("/images/GTA0-1024x576.jpg");
     imageDisplay.push("/images/GTAars.jpg");
     imageDisplay.push("/images/GTAault.jpg");
-    imageDisplay.push("/images/GTAhh1e.jpg");
-    imageDisplay.push("/images/GTAhmarine-cost.jpg");
+    imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhh1e.jpg");
+    imageDisplay.push("/images/GTAhmarine-cost.JPG");
     // two functions to generate random figures for the car description
     function generateStrings(avaliableList) {
         let j = Math.floor(Math.random() * avaliableList.length);
