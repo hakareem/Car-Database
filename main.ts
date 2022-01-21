@@ -224,7 +224,7 @@ function carGenerator(
   imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAars.jpg");
   imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAault.jpg");
   imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhh1e.jpg");
-  imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhmarine-cost.JPG");
+  imageDisplay.push("https://hakareem.github.io/Car-Database/images/GTAhmarine-cost.jpg");
 // https://hakareem.github.io/Car-Database/images/
 
   // two functions to generate random figures for the car description
