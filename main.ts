@@ -61,7 +61,7 @@ carMakes.McLaren = ["620R", "720S", "570S", "GT", "Senna"];
 let cars: any[];
 // cars = JSON.parse(localStorage.getItem("cars")!);
 // if (cars == null) {
-cars = carGenerator(carMakes, 4);
+cars = carGenerator(carMakes, 20);
 saveNewCar();
 cars.push(new Car("Honda", "New One", 1241313, 2141, 312, "green", 1, 1));
 
