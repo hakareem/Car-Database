@@ -8,8 +8,8 @@ I have learnt so much throughout this project. I was able to grasp the concept o
 # Areas for improvement
 My portfolio can certainly be developed and improved further. I will do this by:
 
-• Creating dropdown menu's
-• Refactoring the code to make it consice 
-• Custom Web URL 
-• Appealing Visual Design and Layout
-• Project Description
+• Creating dropdown menu's<br>
+• Refactoring the code to make it consice <br>
+• Custom Web URL <br>
+• Appealing Visual Design and Layout <br>
+• Project Description <br>
